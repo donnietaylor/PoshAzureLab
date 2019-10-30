@@ -1,0 +1,27 @@
+{
+    "TenantId": "ff744de5-59a0-4b5b-a181-54d5efbb088b",
+    "subscriptions": [
+        {
+            "subscription_name": "Pay-As-You-Go",
+            "resource_groups": [
+                {
+                    "resource_group_name": "AzureLabStartup001",
+                    "data": {
+                        "virtual_machines": [
+                            {
+                                "vm_name": "Server001",
+                                "wait":false,
+                                "delay_after_start": "1"
+                            },
+                            {
+                                "vm_name": "Server002",
+                                "wait":false,
+                                "delay_after_start": "2"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
